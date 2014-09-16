@@ -128,3 +128,7 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+require_once(get_template_directory() . '/titan-framework/titan-framework-embedder.php' );
+require_once(get_template_directory() . '/admin/adminoptions.php' );
+require_once(get_template_directory() . '/admin/adminfunctions.php' );
